@@ -11,3 +11,4 @@ class Persona:
 
 paco = Persona(nombre="Paco", posicion=0)
 posicion_paco = paco.caminar(distancia_km=6)
+print(posicion_paco)

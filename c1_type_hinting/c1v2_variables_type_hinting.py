@@ -1,7 +1,8 @@
+
 from typing import Dict, List, Mapping, Tuple
 
 
-nombre: str
+nombre: str = "Ana"
 nombre = "Ana"
 
 edad: int = 25
@@ -16,3 +17,10 @@ lenguajes_programacion: Tuple[str, str, str] = ("python", "java", "javascript", 
 
 # lenguaje: dict = {"nombre": "python", "creador": "Guido Van Rossum"}
 lenguaje: Dict[str, str] = {"nombre": "python", "creador": "Guido Van Rossum"}
+
+print(nombre)
+print(edad)
+print(pi)
+print(apellidos)
+print(lenguajes_programacion)
+print(lenguaje)
