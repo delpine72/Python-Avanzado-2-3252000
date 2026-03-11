@@ -9,3 +9,9 @@ class Empleado:
         self.horas_trabajadas += horas
         print(f"Se han añadido {horas} de trabajo")
         print(f"Ha trabajado en total {self.horas_trabajadas} horas")
+
+juan = Empleado("Juan", "Perez", 35)
+#juan.trabajar(8)
+juan.trabajar(4)
+juan.trabajar(2)
+

@@ -21,4 +21,4 @@ def recorrer_ciclo(rango):
         time.sleep(1)
 
 
-recorrer_ciclo(rango=5)
+recorrer_ciclo(rango=10)

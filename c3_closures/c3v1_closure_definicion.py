@@ -28,8 +28,12 @@ def saludar():
     def imprimir_saludo():
         print(mensaje)
 
-    return imprimir_saludo
+    def imprimir_saludo2():
+        print(mensaje + " a todos")
 
+    return imprimir_saludo, imprimir_saludo2
 
-saludo = saludar()
+saludo, saludo2 = saludar()
 saludo()
+saludo2()
+

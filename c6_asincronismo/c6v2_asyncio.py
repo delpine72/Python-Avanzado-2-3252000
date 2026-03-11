@@ -20,6 +20,7 @@ async def main():
 
 inicio = time.time()
 asyncio.run(main())
+
 print(f"Tiempo asíncrono: {time.time() - inicio}")
 
 inicio = time.time()

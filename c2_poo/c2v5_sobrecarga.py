@@ -1,5 +1,4 @@
 class Persona:
-
     def __init__(self, nombre, edad):
         self.nombre = nombre
         self.edad = edad
@@ -18,6 +17,9 @@ emilio = Persona("Emilio", 26)
 
 paco + 5
 paco + 15
+
+
+print(emilio.distancia_recorrida)
 print(paco.distancia_recorrida)
 
 print(paco < emilio)

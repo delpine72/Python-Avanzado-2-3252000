@@ -27,7 +27,7 @@ def hacer_consultas():
 
     empleados_contabilidad = session.query(Empleado).filter_by(
         id_departamento=departamento_1.id
-    ).first()
+    ).all()
     print(empleados_contabilidad)
     for empleado in empleados_contabilidad:
         print(empleado)
@@ -35,5 +35,5 @@ def hacer_consultas():
 
 if __name__ == "__main__":
     ModeloBase.metadata.create_all(engine)
-    # guardar_datos()
+    #guardar_datos()
     hacer_consultas()

@@ -11,8 +11,6 @@ def medir_tiempo_ejecucion(funcion):
         print(f"Tiempo total de ejecución: {tiempo_total}")
 
     return wrapper
-
-
 def decorador_puntos(funcion):
 
     def wrapper(*args, **kwargs):
@@ -23,8 +21,8 @@ def decorador_puntos(funcion):
     return wrapper
 
 
-@medir_tiempo_ejecucion
 @decorador_puntos
+@medir_tiempo_ejecucion
 def recorrer_ciclo(rango):
 
     for i in range(rango):

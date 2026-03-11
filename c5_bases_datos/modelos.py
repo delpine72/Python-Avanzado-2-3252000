@@ -11,7 +11,9 @@ class Departamento(ModeloBase):
 
     def __init__(self, nombre):
         self.nombre = nombre
-
+    
+    def __str__(self):
+        return f"Departamento: {self.id} - {self.nombre}"
 
 class Empleado(ModeloBase):
     __tablename__ = "empleado"
@@ -27,3 +29,6 @@ class Empleado(ModeloBase):
         self.apellido = apellido
         self.documento = documento
         self.id_departamento = id_departamento
+
+    def __str__(self):
+        return f"Empleado: {self.id} - {self.nombre} {self.apellido} - Documento: {self.documento} - Departamento ID: {self.id_departamento}"

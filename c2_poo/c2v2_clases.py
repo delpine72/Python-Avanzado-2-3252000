@@ -17,3 +17,8 @@ paco = Persona("Paco", "Botero", 27)
 print(paco.tipo)
 print(paco.nombre)
 paco.agregar_documento_identidad(1234)
+
+maria = Persona("Maria", "Gomez", 30)
+print(maria.tipo)
+maria.agregar_documento_identidad(5678)
+print(maria.documento_identidad)
